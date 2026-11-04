@@ -1,9 +1,9 @@
-name: Node.js CI
+name: CI
 
 on: [push]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
